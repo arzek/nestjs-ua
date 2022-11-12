@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.app`,
-    siteAuthor: `@jpedroschmitz`,
+    siteTitle: `NestJs Українською`,
+    defaultTitle: `NestJs Українською`,
+    siteTitleShort: `NestJs UA`,
+    siteDescription: `Документація NestJs українською мовою`,
+    siteUrl: `https://nestjs-ua.web.app/`,
+    siteAuthor: `@arzek`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
+    siteLanguage: `ua`,
     themeColor: `#8257E6`,
     basePath: `/`,
   },
@@ -34,12 +34,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `YOUR_ANALYTICS_ID`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-1RDPSYJJW4`,
+
+      },
+    },
     `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
