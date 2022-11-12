@@ -34,15 +34,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-		{
-			resolve: `gatsby-plugin-google-gtag`,
-			options: {
-				// You can add multiple tracking ids and a pageview event will be fired for all of them.
-				trackingIds: [
-					"G-1RDPSYJJW4", // Google Analytics / GA
-				]
-			},
-		},
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-1RDPSYJJW4`,
+      },
+    },
     `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
