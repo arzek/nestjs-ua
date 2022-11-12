@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-rocketdocs",
+  "name": "nestjs-ua",
   "private": true,
   "version": "1.0.0",
-  "description": "Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more",
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "description": "NestJs Українською",
+  "author": "Artem Bondarchuk",
   "license": "MIT",
   "starter-name": "gatsby-starter-rocketdocs",
   "dependencies": {
@@ -24,6 +24,9 @@
     "gatsby",
     "gatsby-starter"
   ],
+  "engines": {
+    "node": "18.12.1"
+  },
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
