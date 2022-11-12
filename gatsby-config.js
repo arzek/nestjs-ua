@@ -34,12 +34,19 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `G-1RDPSYJJW4`,
-      },
-    },
+		{
+			resolve: `gatsby-plugin-google-gtag`,
+			options: {
+				trackingIds: [
+					"G-1RDPSYJJW4",
+				],
+				pluginConfig: {
+					head: false,
+					respectDNT: true,
+					exclude: ['/preview/**'],
+				},
+			},
+		},
     `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
