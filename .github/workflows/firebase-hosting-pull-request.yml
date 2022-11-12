@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.12.1]
+        node-version: [18]
     steps:
       - uses: actions/checkout@v2
       - run: yarn && yarn build
